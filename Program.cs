@@ -14,6 +14,13 @@ namespace MyApplication
             string lastName = "Ahmed";
             string name = $"My full name is: {firstName} {lastName}";
             Console.WriteLine(name+$"{"\n"}");
+
+            // Console.WriteLine(firstName.Length);
+            for (int i = 0; i < name.Length; i++)
+            {
+                Console.Write(name[i]);
+
+            }
         }
     }
 }
